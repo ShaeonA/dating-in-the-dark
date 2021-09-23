@@ -1,1 +1,3 @@
 # dating-in-the-dark
+
+Dating in the Dark is a program designed to match ready singles, on blind date. Utilizing Oscar Ichazo (1931–2020), who is recognized as the principal source of the contemporary Enneagram of Personality.  We match people based on their Enneagram Personality type. Which is largely derived from some of Ichazo's teachings. The 9 types of personalities that Dating in the Dark will evaluate on 
