@@ -38,6 +38,8 @@ const userSchema = new Schema({
    trim: true
   }, 
   DOB: {
+    type: String,
+    required: true,
     
   }
 
