@@ -25,12 +25,20 @@ const userSchema = new Schema({
     required: true,
     minlength: 5
   }, 
-  gender: [male,female, other, choose not to answer]
+  gender: [male,female, other, noAnswer],
   sexuality : {
-    
+    type: String,
+    required: true,
+    trim: true
+
   }, 
   religion : {
-
+   type: String,
+   required: true, 
+   trim: true
+  }, 
+  DOB: {
+    
   }
 
 
