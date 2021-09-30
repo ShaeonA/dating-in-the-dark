@@ -13,3 +13,5 @@ const categorySchema = new Schema({
 const Category = mongoose.model('Category', categorySchema);
 
 module.exports = Category;
+
+// how in the dark are you (naming conventions) , base it off of time of days. Used to group compatability
