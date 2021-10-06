@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="logo1.png" className="" alt="logo" />
+    <img src="logo1.png" className="my-logo" style={{ width: "100%", height: "85%" }}  alt="cover" />
         <h1>
         </h1>
         <button type="button" id="login">Login</button>

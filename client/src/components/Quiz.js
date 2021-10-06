@@ -1,3 +1,5 @@
+import React from 'react'
+import Quiz from 'Quiz.js'
 export const quiz = {
     "quizTitle": "What's Your Personality Type",
     "quizSynopsis": "you will be matched based on their Enneagram Personality type.",
@@ -9,7 +11,7 @@ export const quiz = {
             "answers": [
                 "A. romantic and imaginative B. pragmatic and down to earth"
             ],
-            "correctAnswer": [A, B],
+            "correctAnswer": [A],
             "ForCorrectAnswer": "Great! Keep going!",
             "point": [1, 2]
         },
@@ -20,7 +22,7 @@ export const quiz = {
             "answers": [
                 "A. take on confrontations B. avoid confrontations"
             ],
-            "correctAnswer": [A, B],
+            "correctAnswer": [A],
             "ForCorrectAnswer": "It's cuffing season...",
             "point": [1, 2]
         },
@@ -31,7 +33,7 @@ export const quiz = {
             "answers": [
                 "A. diplomatic, charming, and ambitious B. direct, formal, and idealistic"
             ],
-            "correctAnswer": [A, B],
+            "correctAnswer": [A],
             "ForCorrectAnswer": "Great! Keep going!",
             "point": [1, 2]
         },
@@ -42,7 +44,7 @@ export const quiz = {
             "answers": [
                 "A. focused and intense B. pspontaneous and fun-loving"
             ],
-            "correctAnswer": [A, B],
+            "correctAnswer": [A],
             "ForCorrectAnswer": "One more question!",
             "point": [1, 2]
         },
@@ -53,10 +55,13 @@ export const quiz = {
             "answers": [
                 "A. hospitable person and have enjoyed welcoming new friends into my life B. private person and have not mixed much with others"
             ],
-            "correctAnswer": [A, B],
+            "correctAnswer": [A],
             "ForCorrectAnswer": "Get ready for that date!",
             "point": [1, 2]
         },
     ]
 }
 
+
+
+export default Quiz;
